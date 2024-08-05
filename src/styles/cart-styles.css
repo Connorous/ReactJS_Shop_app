@@ -1,0 +1,154 @@
+.cart-page {
+  margin: 20px;
+  flex-shrink: 1;
+  background-color: white;
+  text-align: right;
+}
+
+table.cart-table {
+  border-collapse: collapse;
+  width: 80%;
+  table-layout: auto;
+  text-align: center;
+}
+
+table.cart-table > thead > tr > th {
+  background-color: #355763;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table.cart-table th {
+  background-color: #355763;
+  color: white;
+  border: 3px solid;
+  border-color: black;
+}
+
+table.cart-table td {
+  border: 3px solid;
+  border-color: black;
+  padding: 5px;
+}
+
+table.cart-table > tbody > tr > td > a > h3 {
+  color: black;
+}
+
+table.cart-table > tbody > tr > td > p {
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+a:hover {
+  color: black;
+}
+
+.item-cart-image {
+  width: 100px;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+button.add {
+  background-color: #0096cb;
+  width: 50%;
+  border: 0;
+  transition: 0.5s;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+button.add:hover {
+  background-color: #00b6f6;
+}
+
+button.sub {
+  background-color: #007ba6;
+  width: 50%;
+  border: 0;
+  transition: 0.5s;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+button.sub:hover {
+  background-color: #0096cb;
+}
+
+img.btn-icon {
+  width: 30px;
+  height: 30px;
+}
+
+table.cart-table .button-column {
+  background-color: white;
+  border: 0;
+  color: black;
+}
+
+table.cart-table > tbody > tr > td > p {
+  font-size: larger;
+}
+
+button.checkout-btn {
+  text-align: left;
+  background-color: #355763;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 0;
+  border: none;
+  font-size: x-large;
+}
+
+button.checkout-btn:hover {
+  background-color: #477585;
+}
+
+.cart-page > h1 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.cart-page > button {
+  margin: auto;
+}
+
+.flex-container-cart {
+  display: flex;
+  justify-content: space-between;
+  gap: 30%;
+}
+
+.edit-div {
+  text-align: left;
+}
+
+button.edit-btn {
+  background-color: #355763;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 0;
+  font-size: x-large;
+  border: 0;
+  border: none;
+}
+
+button.edit-btn:hover {
+  background-color: #477585;
+}

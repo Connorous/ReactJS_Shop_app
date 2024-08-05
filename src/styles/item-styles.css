@@ -1,0 +1,97 @@
+.item-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow: auto;
+  margin: 0;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  padding: 5%;
+
+  overflow-y: initial;
+}
+
+.item-card {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border: white;
+  min-width: 200px;
+
+  border: 5px solid;
+  border-color: black;
+  color: black;
+
+  transition: 0.5s;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.item-card > a > h5 {
+  text-align: left;
+}
+
+.item-card > a > p {
+  text-align: left;
+}
+
+.item-card > a {
+  color: black;
+}
+
+.item-card > a:hover {
+  color: black;
+}
+
+button.addToCart {
+  text-align: left;
+  background-color: #355763;
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 0;
+}
+
+button.addToCart:hover {
+  background-color: #477585;
+}
+
+.item-card-image {
+  height: 150px;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.item-view-image {
+  max-width: 450px;
+  max-height: 450px;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.item-card:hover {
+  border-color: #11265f;
+}
+
+.flex-container-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-foritem {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.description {
+  text-align: left;
+  width: 25%;
+}
